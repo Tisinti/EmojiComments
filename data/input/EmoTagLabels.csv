@@ -1,0 +1,151 @@
+unicode,emoji,name,label
+1F308,🌈,rainbow,joy
+1F319,🌙,crescent moon,neutral
+1F31A,🌚,new moon face,neutral
+1F31E,🌞,sun with face,joy
+1F31F,🌟,glowing star,joy
+1F337,🌷,tulip,neutral
+1F338,🌸,cherry blossom,joy
+1F339,🌹,rose,trust
+1F33A,🌺,hibiscus,neutral
+1F340,🍀,four leaf clover,neutral
+1F343,🍃,leaf fluttering in wind,neutral
+1F355,🍕,pizza,neutral
+1F37B,🍻,clinking beer mugs,joy
+1F380,🎀,ribbon,neutral
+1F388,🎈,balloon,neutral
+1F389,🎉,party popper,joy
+1F3A4,🎤,microphone,neutral
+1F3A5,🎥,movie camera,neutral
+1F3A7,🎧,headphone,neutral
+1F3B5,🎵,musical note,neutral
+1F3B6,🎶,musical notes,neutral
+1F440,👀,eyes,anticipation
+1F445,👅,tongue,neutral
+1F447,👇,backhand index pointing down,neutral
+1F448,👈,backhand index pointing left,neutral
+1F449,👉,backhand index pointing right,neutral
+1F44A,👊,oncoming fist,trust
+1F44B,👋,waving hand,neutral
+1F44C,👌,OK hand,trust
+1F44D,👍,thumbs up,neutral
+1F44E,👎,thumbs down,disgust
+1F44F,👏,clapping hands,joy
+1F451,👑,crown,neutral
+1F47B,👻,ghost,fear
+1F480,💀,skull,fear
+1F481,💁,person tipping hand,neutral
+1F483,💃,woman dancing,joy
+1F48B,💋,kiss mark,joy
+1F48E,💎,gem stone,trust
+1F490,💐,bouquet,joy
+1F493,💓,beating heart,trust
+1F494,💔,broken heart,sadness
+1F495,💕,two hearts,joy
+1F496,💖,sparkling heart,joy
+1F497,💗,growing heart,joy
+1F498,💘,heart with arrow,joy
+1F499,💙,blue heart,joy
+1F49A,💚,green heart,joy
+1F49B,💛,yellow heart,joy
+1F49C,💜,purple heart,neutral
+1F49E,💞,revolving hearts,joy
+1F4A4,💤,zzz,neutral
+1F4A5,💥,collision,neutral
+1F4A6,💦,sweat droplets,neutral
+1F4A9,💩,pile of poo,disgust
+1F4AA,💪,flexed biceps,neutral
+1F4AB,💫,dizzy,neutral
+1F4AD,💭,thought balloon,anticipation
+1F4AF,💯,hundred points,joy
+1F4B0,💰,money bag,anticipation
+1F4F7,📷,camera,neutral
+1F51E,🔞,no one under eighteen,neutral
+1F525,🔥,fire,neutral
+1F52B,🔫,pistol,neutral
+1F534,🔴,red circle,neutral
+1F600,😀,grinning face,joy
+1F601,😁,beaming face with smiling eyes,joy
+1F602,😂,face with tears of joy,joy
+1F603,😃,grinning face with big eyes,joy
+1F604,😄,grinning face with smiling eyes,joy
+1F605,😅,grinning face with sweat,neutral
+1F606,😆,grinning squinting face,joy
+1F607,😇,smiling face with halo,joy
+1F608,😈,smiling face with horns,neutral
+1F609,😉,winking face,neutral
+1F60A,😊,smiling face with smiling eyes,joy
+1F60B,😋,face savoring food,joy
+1F60C,😌,relieved face,joy
+1F60D,😍,smiling face with heart-eyes,joy
+1F60E,😎,smiling face with sunglasses,joy
+1F60F,😏,smirking face,neutral
+1F610,😐,neutral face,neutral
+1F611,😑,expressionless face,neutral
+1F612,😒,unamused face,disgust
+1F613,😓,downcast face with sweat,fear
+1F614,😔,pensive face,sadness
+1F615,😕,confused face,neutral
+1F616,😖,confounded face,disgust
+1F618,😘,face blowing a kiss,joy
+1F619,😙,kissing face with smiling eyes,joy
+1F61A,😚,kissing face with closed eyes,joy
+1F61B,😛,face with tongue,joy
+1F61C,😜,winking face with tongue,joy
+1F61D,😝,squinting face with tongue,joy
+1F61E,😞,disappointed face,sadness
+1F61F,😟,worried face,fear
+1F620,😠,angry face,anger
+1F621,😡,pouting face,anger
+1F622,😢,crying face,sadness
+1F623,😣,persevering face,disgust
+1F624,😤,face with steam from nose,anger
+1F625,😥,sad but relieved face,sadness
+1F628,😨,fearful face,fear
+1F629,😩,weary face,sadness
+1F62A,😪,sleepy face,sadness
+1F62B,😫,tired face,sadness
+1F62C,😬,grimacing face,anticipation
+1F62D,😭,loudly crying face,sadness
+1F630,😰,anxious face with sweat,fear
+1F631,😱,face screaming in fear,fear
+1F633,😳,flushed face,fear
+1F634,😴,sleeping face,neutral
+1F636,😶,face without mouth,neutral
+1F637,😷,face with medical mask,disgust
+1F639,😹,cat with tears of joy,joy
+1F63B,😻,smiling cat with heart-eyes,joy
+1F645,🙅,person gesturing NO,disgust
+1F646,🙆,person gesturing OK,trust
+1F648,🙈,see-no-evil monkey,surprise
+1F64A,🙊,speak-no-evil monkey,neutral
+1F64B,🙋,person raising hand,anticipation
+1F64C,🙌,raising hands,joy
+1F64F,🙏,folded hands,trust
+203C,‼,double exclamation mark,surprise
+21A9,↩,right arrow curving left,neutral
+21AA,↪,left arrow curving right,neutral
+25B6,▶,play button,neutral
+25C0,◀,reverse button,neutral
+2600,☀,sun,neutral
+2611,☑,check box with check,neutral
+261D,☝,index pointing up,neutral
+263A,☺,smiling face,joy
+2665,♥,heart suit,joy
+267B,♻,recycling symbol,neutral
+26A1,⚡,high voltage,neutral
+26BD,⚽,soccer ball,neutral
+2705,✅,check mark button,neutral
+2708,✈,airplane,neutral
+270A,✊,raised fist,anticipation
+270B,✋,raised hand,neutral
+270C,✌,victory hand,joy
+2714,✔,check mark,neutral
+2728,✨,sparkles,joy
+2744,❄,snowflake,neutral
+274C,❌,cross mark,disgust
+2757,❗,exclamation mark,surprise
+2764,❤,red heart,joy
+27A1,➡,right arrow,neutral
+2B05,⬅,left arrow,neutral
+2B50,⭐,star,neutral

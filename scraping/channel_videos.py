@@ -21,7 +21,7 @@ def search_channels(find: str) -> str:
         q=find,
         relevanceLanguage = 'en',
         regionCode = 'US',
-        maxResults=25
+        maxResults=50
     )
 
     response = request.execute()
