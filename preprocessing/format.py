@@ -33,7 +33,7 @@ def remove_to_long(comment: str) -> bool:
 
 
 def remove_num_comments(comment: str) -> bool:
-    """Romve Comments with numbers in it """
+    """Remove comments with numbers in it """
 
     return bool(re.search("\d+", comment))
 

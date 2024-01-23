@@ -28,7 +28,7 @@ def emo_tag_labels() -> None:
     
 
 def label_comments(comment: str) -> str:
-    """Returns the Label that matches the first emoji"""
+    """Returns the label that matches the first emoji"""
 
     emojis = re.findall(EMOJI_PAT, comment)
     label = EMO_TAG[EMO_TAG['emoji'].isin(emojis)]['label'].values.tolist()

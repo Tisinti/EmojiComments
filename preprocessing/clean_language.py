@@ -8,8 +8,8 @@ COUNTRY = ["Germany", "USA", "Pakistan", "India", "Korea", "Bangladesh",
            "Morroco", "Turkey", "Greece"]
 
 def clean_lang(emoji: pd.DataFrame) -> pd.DataFrame:
-    """Remove non englo comments. Also removes pure emoji comments
-    Interstingly enough same english comments were labeled as cypress"""
+    """Remove non englo comments. Also removes pure emoji comments.
+    Interestingly enough same english comments were labeled as cypress"""
     
     if 'Language' not in str(emoji.columns):
         emoji['Language'] = emoji['Comment'].apply(get_lang)
