@@ -3,8 +3,8 @@ from preprocessing import clean_lang
 from preprocessing import format_emoji_sentence, add_span, label_comments
 import json
 import pandas as pd
-import advertools as adv
-import re
+from sklearn.model_selection import train_test_split
+import ast
 
 
 def scrape_comments(search: str = 'tagesschau') -> None:
@@ -35,6 +35,11 @@ def label() -> None:
     emoji[['Label', 'Comment', 'Span']].to_json("data/output/emoji_final.json", orient='index',
                                                 force_ascii=False, indent=4)
 
+def train_test() -> None:
+    data = pd.read_json("data/output/emoji_final.json", orient="index")
+    train, test = train_test_split(data, random_state=42, shuffle=True, train_size=0.8)
+    train.to_parquet("data/probing/train.parquet")
+    test.to_parquet("data/probing/test.parquet")
 
 if __name__ == "__main__":
-    label()
+    print(pd.read_parquet("data/probing/train.parquet").head())

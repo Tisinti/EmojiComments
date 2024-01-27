@@ -1,6 +1,7 @@
 import html
 import re
 import pandas as pd
+import ast
 
 TAG_MATCH = re.compile('<.*?>')
 EMOJI_PAT = re.compile(
@@ -60,4 +61,4 @@ def add_span(comment: str) -> str:
     if len(span) > 1 or len(span) == 0:
         return None
     else:
-        return str(span)[1:-1]
+        return ast.literal_eval("[" + str(span)[2:-2] + "]")
