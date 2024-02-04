@@ -1,6 +1,6 @@
-from scraping import search_comments
-from preprocessing import clean_lang
-from preprocessing import format_emoji_sentence, add_span, label_comments
+from src.emojidata import search_comments
+from src.emojidata import clean_lang
+from src.emojidata import format_emoji_sentence, add_span, label_comments
 import json
 import pandas as pd
 from sklearn.model_selection import train_test_split
