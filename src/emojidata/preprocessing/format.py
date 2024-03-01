@@ -2,6 +2,7 @@ import html
 import re
 import pandas as pd
 import ast
+import random
 
 TAG_MATCH = re.compile('<.*?>')
 EMOJI_PAT = re.compile(
@@ -51,7 +52,7 @@ def replace_unicode(comment: str) -> str:
     return html.unescape(comment)
 
 
-def add_span(comment: str) -> str:
+def add_span(comment: str) -> list[str]:
     """Get span of Emoji and mark emojis with multiple spans"""
 
     # Pattern matches all emojis that exist as a label
@@ -62,3 +63,13 @@ def add_span(comment: str) -> str:
         return None
     else:
         return ast.literal_eval("[" + str(span)[2:-2] + "]")
+
+
+def add_random_span(comment: str) -> list[int]:
+    """Lets the span point to a random length inside the string"""
+    
+    start = random.randrange(0, len(comment))
+    end = random.randrange(start+1, len(comment)+1)
+
+    return [start, end]
+    
