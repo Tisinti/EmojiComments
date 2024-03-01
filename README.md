@@ -3,8 +3,8 @@
 This is a Repo which i used to create a dataset that contains Youtube Comments with Emojis. 
 The Emotion to each emoji is based on EmoTag 1200. https://github.com/abushoeb/EmoTag 
 
-You can find the final dataset under data/output/emoji_final.json containing 7802 comments!
-If you just want the raw comments, there are 23483 emoji comments und data/output/emoji_comments.json.
+You can find the final dataset under **data/output/emoji_final.json** containing 7802 comments!
+If you just want the raw comments, there are 23483 emoji comments und **data/output/emoji_comments.json**.
 Or just create your own dataset, using this Repo! Hopefully the below documentation and the comments in the code are enough, if not feel free to do what you want with this Project.
 
 ### Code Structure 👾
