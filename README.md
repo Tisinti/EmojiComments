@@ -10,15 +10,15 @@ Or just create your own dataset, using this Repo! Hopefully the below documentat
 ### Code Structure 👾
 The main code can be found under src/emojidata
 
-scraping
+**scraping**
 : scrapes emoji_comments from Youtube via the Youtube API. Creates an _emoji_comments.json_ file in data/output.
 You **need** a *.env* file in the root of the folder, containing a valid *YT_API* Key for this to work. 
 
-preprocessing
+**preprocessing**
 : preprocesses and labels the emoji_comments. Creates emoji_final.json and emoji_random.json (with a random span).
 
-src/notebooks
-:There's also a notebook folder with an Analysis Notebook, that contains a visualization of embeddings that BERT generated based on this dataset.
+**src/notebooks**
+: There's also a notebook folder with an Analysis Notebook, that contains a visualization of embeddings that BERT generated based on this dataset.
 
 ### Dataset Structure 📋📊
 
@@ -26,14 +26,14 @@ emoji_final.json contains the comment, the label and the span.
 The span points to the emojis that are next to each other is contained in EmoTag 1200.
 The Comment is labeled after the first emoji contained in the span.
 
-data/input
+**data/input**
 : EmotagLabels.csv contains each emoji with it's highest corresponding emotion. 
 If no Emotion is over 0.5, the Emoji was labeled neutral.
 
-data/output
+**data/output**
 : The scraped comments, with the inbetween steps of preprocessing.
 
-data/probing
+**data/probing**
 : Train-Test parquet files for probing a Language Model. The embeddings were not derived from this code, but were used for result analysis.
 
 
